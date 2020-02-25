@@ -4,10 +4,12 @@ import json
 
 url = 'http://ombiurl:5000'  # URL For OMBI
 apikey = '1111111111111111111111111111' # OMBI ApiKey, can be found in ombi settings
+adminUser = 'yourAdminUser' # Required for v4 Preview
 
 # Authorization headers
 headers = {
-    "ApiKey": apikey
+    "ApiKey": apikey,
+    "UserName": adminUser
 }
 
 ### MOVIES
